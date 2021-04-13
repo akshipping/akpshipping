@@ -7,8 +7,11 @@
 .pad{
   padding:0 0 0 0;
 }
+.align{
+  padding:20px 5px 0 15px;
+}
 .p{
-  padding-left: 200px;
+  padding-left: 180px;
 }
 .topnav {
   overflow: hidden;
@@ -38,8 +41,11 @@ color:darkblue!important;
 }
 
 @media (min-width: 576px) {
+  .align{
+    padding:8px 50px 0 200px;
+  }
   .pad{
-    padding:8px 50px 8px 80px;
+    padding:8px 50px 0 80px;
   }
 .carousel-item{
 height:650px;
