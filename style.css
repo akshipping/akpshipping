@@ -1,0 +1,57 @@
+.contact{
+  padding:8px 0 8px 200px;
+}
+.bg{
+  background-color:darkblue ;
+}
+.pad{
+  padding:0 0 0 0;
+}
+.p{
+  padding-left: 200px;
+}
+.topnav {
+  overflow: hidden;
+}
+.link.active{
+border-bottom: 3px solid blue;
+}
+.link.hover{
+border-bottom: 3px solid blue;
+}
+.carousel-item{
+height:150px;
+background:black;
+}
+.carousel-caption{
+  padding-bottom:250px !important;
+}
+.pic{
+height:300px;
+}
+.value{
+ font-size:10px;
+ width:300px;
+}
+.colr{
+color:darkblue!important;
+}
+
+@media (min-width: 576px) {
+  .pad{
+    padding:8px 50px 8px 80px;
+  }
+.carousel-item{
+height:650px;
+}
+.carousel-caption{
+  padding-bottom:200px !important;
+}
+.pic{
+height:300px;
+}
+.value{
+ font-size:20px;
+ width:500px;
+}
+}
