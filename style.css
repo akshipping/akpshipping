@@ -23,7 +23,7 @@ border-bottom: 3px solid blue;
 border-bottom: 3px solid blue;
 }
 .carousel-item{
-height:220px;
+height:200px;
 background:black;
 }
 .carousel-caption{
@@ -48,7 +48,7 @@ color:darkblue!important;
     padding:8px 50px 0 80px;
   }
 .carousel-item{
-height:600px;
+height:650px;
 }
 .carousel-caption{
   padding-bottom:200px !important;
