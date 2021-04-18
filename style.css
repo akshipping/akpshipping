@@ -23,7 +23,7 @@ border-bottom: 3px solid blue;
 border-bottom: 3px solid blue;
 }
 .carousel-item{
-height:205px;
+height:200px;
 background:black;
 }
 .carousel-caption{
@@ -41,8 +41,24 @@ color:darkblue!important;
 }
 
 @media (min-width: 768px) {
+  .align{
+    padding:8px 50px 0 200px;
+  }
+  .pad{
+    padding:8px 50px 0 80px;
+  }
   .carousel-item{
-  height:500px;
+  height:480px;
+  }
+  .carousel-caption{
+    padding-bottom:200px !important;
+  }
+  .pic{
+  height:300px;
+  }
+  .value{
+   font-size:20px;
+   width:500px;
   }
 }
 @media (min-width: 992px) {
