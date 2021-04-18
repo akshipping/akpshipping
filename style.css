@@ -23,7 +23,7 @@ border-bottom: 3px solid blue;
 border-bottom: 3px solid blue;
 }
 .carousel-item{
-height:200px;
+height:215px;
 background:black;
 }
 .carousel-caption{
@@ -40,7 +40,12 @@ height:300px;
 color:darkblue!important;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
+  .carousel-item{
+  height:480px;
+  }
+}
+@media (min-width: 992px) {
   .align{
     padding:8px 50px 0 200px;
   }
@@ -48,7 +53,7 @@ color:darkblue!important;
     padding:8px 50px 0 80px;
   }
 .carousel-item{
-height:650px;
+height:950px;
 }
 .carousel-caption{
   padding-bottom:200px !important;
@@ -60,4 +65,4 @@ height:300px;
  font-size:20px;
  width:500px;
 }
-}
+ }
